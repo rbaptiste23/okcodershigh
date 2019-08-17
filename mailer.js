@@ -1,22 +1,7 @@
 
 
 
-//Do not mutate the data..
-
-// ... = Spread operation = Pulls each key value out of the array.
-
-
-
-
-
-
-
-
 function printLetter(from, to) {
-// from object 
-// {name, street, city, state, zip}
-
-
 //   ===================================================================
 //  |Riley Baptiste                                                    |
 //  |804 Pacific Grove Dr                                              |
@@ -36,8 +21,8 @@ function printLetter(from, to) {
  console.log("|                                  ", to.street,     );
  console.log("|                                  ",`${to.city}, ${to.state}, ${to.zip}`);
  console.log(" ===================================================================");
-
 }
+
 
 
 const from = {
@@ -45,10 +30,8 @@ const from = {
     street: "804 Pacific Grove Dr",
     city: "Edmond",
     state: "OK",
-    zip: "73003"
-    
+    zip: "73003"  
 }
-
 
 module.exports = {
     from: from,
