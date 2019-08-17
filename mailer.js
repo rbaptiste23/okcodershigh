@@ -39,4 +39,18 @@ function printLetter(from, to) {
 
 }
 
-module.exports = printLetter;
+
+const from = {
+    name: "Riley Baptiste",
+    street: "804 Pacific Grove Dr",
+    city: "Edmond",
+    state: "OK",
+    zip: "73003"
+    
+}
+
+
+module.exports = {
+    from: from,
+    printLetter: printLetter
+}
