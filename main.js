@@ -26,3 +26,23 @@ _.forEach(data, function(e){
   mailer.printLetter(mailer.from, to);
     
 })
+
+
+
+
+// Every node project 
+/* 
+   Cd 
+   Cd 
+   mkdir new-project
+   cd new-project
+   npm init  = (This is for the package.json file)
+
+
+
+  *****************************
+   package.json
+   README.md
+   src/ source files 
+   node-modules
+*/
